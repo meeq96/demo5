@@ -1,0 +1,581 @@
+body, html {
+  font-family: 'Oswald', sans-serif; }
+
+.container1 {
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background: #262626;
+  display: flex; }
+  .container1 .gom {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: #444 solid 1px; }
+    .container1 .gom .gomnua {
+      width: 1160px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .container1 .gom .gomnua .logo a img {
+        width: 170px; }
+      .container1 .gom .gomnua .nut a {
+        padding: 8px 20px;
+        border-radius: 3px;
+        color: white;
+        background: #82b440; }
+        .container1 .gom .gomnua .nut a:hover {
+          background: #6f9337; }
+  .container1 .remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; }
+    .container1 .remove .gomnuane a {
+      display: flex;
+      color: #777;
+      font-size: 14px; }
+      .container1 .remove .gomnuane a i {
+        color: white;
+        margin: 5px; }
+      .container1 .remove .gomnuane a:hover {
+        color: white; }
+
+.container2 {
+  opacity: 0;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .container2 .gom {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container2 .gom .nav > ul {
+      display: flex;
+      justify-content: space-between;
+      width: 400px; }
+      .container2 .gom .nav > ul > li {
+        position: relative; }
+        .container2 .gom .nav > ul > li:hover .dropdown {
+          display: block; }
+        .container2 .gom .nav > ul > li > a {
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          position: relative;
+          color: white; }
+          .container2 .gom .nav > ul > li > a:after {
+            opacity: 0;
+            content: ' ';
+            position: absolute;
+            background: #ffc815;
+            width: 35px;
+            height: 2px;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%); }
+          .container2 .gom .nav > ul > li > a:hover:after {
+            animation: toup 1s forwards; }
+        .container2 .gom .nav > ul > li .dropdown {
+          display: none;
+          position: absolute;
+          width: 150px;
+          margin-top: 10px;
+          background: #333333; }
+          .container2 .gom .nav > ul > li .dropdown li {
+            padding: 15px; }
+            .container2 .gom .nav > ul > li .dropdown li a {
+              color: white;
+              letter-spacing: 2px;
+              font-size: 12px;
+              text-transform: uppercase; }
+              .container2 .gom .nav > ul > li .dropdown li a:hover {
+                color: #777; }
+
+.container3 {
+  z-index: -1; }
+  .container3 .anh {
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    position: relative; }
+    .container3 .anh img {
+      width: 100%; }
+  .container3 .gomne {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container3 .gomne .gom {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 120px;
+      width: 1100px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .container3 .gomne .gom .gomtiep .top {
+        animation: toDown 2s forwards;
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .container3 .gomne .gom .gomtiep .top .nav > ul {
+          display: flex;
+          justify-content: space-between;
+          width: 400px; }
+          .container3 .gomne .gom .gomtiep .top .nav > ul > li {
+            position: relative; }
+            .container3 .gomne .gom .gomtiep .top .nav > ul > li:hover .dropdown {
+              display: block; }
+            .container3 .gomne .gom .gomtiep .top .nav > ul > li > a {
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              position: relative;
+              color: white; }
+              .container3 .gomne .gom .gomtiep .top .nav > ul > li > a:after {
+                opacity: 0;
+                content: ' ';
+                position: absolute;
+                background: #ffc815;
+                width: 35px;
+                height: 2px;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%); }
+              .container3 .gomne .gom .gomtiep .top .nav > ul > li > a:hover:after {
+                animation: toup 1s forwards; }
+            .container3 .gomne .gom .gomtiep .top .nav > ul > li .dropdown {
+              display: none;
+              position: absolute;
+              width: 150px;
+              margin-top: 10px;
+              background: #333333; }
+              .container3 .gomne .gom .gomtiep .top .nav > ul > li .dropdown li {
+                padding: 15px; }
+                .container3 .gomne .gom .gomtiep .top .nav > ul > li .dropdown li a {
+                  color: white;
+                  letter-spacing: 2px;
+                  font-size: 12px;
+                  text-transform: uppercase; }
+                  .container3 .gomne .gom .gomtiep .top .nav > ul > li .dropdown li a:hover {
+                    color: #777; }
+      .container3 .gomne .gom .gomtiep .bottom {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .container3 .gomne .gom .gomtiep .bottom .left {
+          animation: fadeInn 2s forwards;
+          border-left: #ffc815 solid 4px;
+          height: 280px; }
+          .container3 .gomne .gom .gomtiep .bottom .left .gomleft {
+            margin-left: 30px; }
+            .container3 .gomne .gom .gomtiep .bottom .left .gomleft h1 {
+              opacity: 0;
+              animation: fadeInn 2s 1s forwards;
+              color: white;
+              font-size: 45px;
+              letter-spacing: 3px;
+              margin-bottom: 10px; }
+            .container3 .gomne .gom .gomtiep .bottom .left .gomleft p {
+              opacity: 0;
+              animation: fadeInn 2s 2s forwards;
+              color: white;
+              font-size: 18px;
+              letter-spacing: 2px;
+              margin-bottom: 20px; }
+            .container3 .gomne .gom .gomtiep .bottom .left .gomleft h2 {
+              opacity: 0;
+              animation: fadeInn 2s 3s forwards;
+              color: white;
+              font-size: 20px;
+              letter-spacing: 2px;
+              margin-bottom: 50px; }
+            .container3 .gomne .gom .gomtiep .bottom .left .gomleft a {
+              opacity: 0;
+              animation: fadeInn 2s 4s forwards;
+              padding: 16px 30px;
+              color: #333;
+              background: #ffc815; }
+              .container3 .gomne .gom .gomtiep .bottom .left .gomleft a:hover {
+                color: white;
+                background: #333; }
+        .container3 .gomne .gom .gomtiep .bottom .right {
+          animation: fadeInn 2s forwards; }
+          .container3 .gomne .gom .gomtiep .bottom .right form {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 10px; }
+            .container3 .gomne .gom .gomtiep .bottom .right form input {
+              padding: 15px;
+              width: 310px;
+              background: white;
+              margin: 10px; }
+            .container3 .gomne .gom .gomtiep .bottom .right form textarea {
+              margin: 10px;
+              padding: 5px 15px;
+              border: none;
+              font-size: 15px;
+              width: 309px;
+              height: 80px; }
+            .container3 .gomne .gom .gomtiep .bottom .right form .nutne {
+              display: flex;
+              justify-content: center;
+              margin: 20px; }
+              .container3 .gomne .gom .gomtiep .bottom .right form .nutne button {
+                padding: 16px 30px;
+                color: #333;
+                background: #ffc815; }
+                .container3 .gomne .gom .gomtiep .bottom .right form .nutne button:hover {
+                  color: white;
+                  background: #333; }
+  .container3 .content {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex; }
+    .container3 .content .bg1, .container3 .content .bg2, .container3 .content .bg3, .container3 .content .bg4, .container3 .content .bg5 {
+      background: white; }
+      .container3 .content .bg1 .so1, .container3 .content .bg2 .so1, .container3 .content .bg3 .so1, .container3 .content .bg4 .so1, .container3 .content .bg5 .so1 {
+        display: none; }
+        .container3 .content .bg1 .so1 img, .container3 .content .bg2 .so1 img, .container3 .content .bg3 .so1 img, .container3 .content .bg4 .so1 img, .container3 .content .bg5 .so1 img {
+          width: 1350px; }
+      .container3 .content .bg1 img, .container3 .content .bg2 img, .container3 .content .bg3 img, .container3 .content .bg4 img, .container3 .content .bg5 img {
+        opacity: .7;
+        width: 200px;
+        margin: 10px 7px; }
+
+.container4 {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .container4 .gom {
+    letter-spacing: 2px; }
+    .container4 .gom p {
+      opacity: 0;
+      color: #333333;
+      font-size: 20px; }
+    .container4 .gom h1 {
+      opacity: 0;
+      color: #000000; }
+      .container4 .gom h1 span {
+        color: #666666; }
+    .container4 .gom .gomnua {
+      margin-top: 30px;
+      display: flex; }
+      .container4 .gom .gomnua .so40, .container4 .gom .gomnua .so41, .container4 .gom .gomnua .so42, .container4 .gom .gomnua .so43, .container4 .gom .gomnua .so44 {
+        opacity: 0;
+        width: 220px;
+        color: #333333; }
+        .container4 .gom .gomnua .so40 .gomso4 i, .container4 .gom .gomnua .so41 .gomso4 i, .container4 .gom .gomnua .so42 .gomso4 i, .container4 .gom .gomnua .so43 .gomso4 i, .container4 .gom .gomnua .so44 .gomso4 i {
+          font-size: 35px;
+          padding: 20px; }
+        .container4 .gom .gomnua .so40 .gomso4 h2, .container4 .gom .gomnua .so41 .gomso4 h2, .container4 .gom .gomnua .so42 .gomso4 h2, .container4 .gom .gomnua .so43 .gomso4 h2, .container4 .gom .gomnua .so44 .gomso4 h2 {
+          font-size: 18px; }
+        .container4 .gom .gomnua .so40 .gomso4 p, .container4 .gom .gomnua .so41 .gomso4 p, .container4 .gom .gomnua .so42 .gomso4 p, .container4 .gom .gomnua .so43 .gomso4 p, .container4 .gom .gomnua .so44 .gomso4 p {
+          font-size: 35px;
+          color: #999999; }
+
+.container5 {
+  position: relative;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: url("https://www.themesawesome.com/gapurahtml/img/content/facilities/facilities.jpg");
+  background-size: cover;
+  background-position: center center; }
+  .container5 .gom {
+    height: 100%;
+    width: 650px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    right: 0; }
+    .container5 .gom h1 {
+      color: #000000;
+      margin-top: 50px;
+      letter-spacing: 2px; }
+      .container5 .gom h1 span {
+        color: #666666; }
+    .container5 .gom .gomnua {
+      width: 520px;
+      height: 700px;
+      margin: 0 auto; }
+      .container5 .gom .gomnua .tren {
+        margin: 40px 0px;
+        display: flex;
+        justify-content: center; }
+        .container5 .gom .gomnua .tren p {
+          text-align: left;
+          width: 520px;
+          font-size: 18px;
+          color: #333333;
+          font-family: 'Open Sans', sans-serif; }
+      .container5 .gom .gomnua .duoi {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center; }
+        .container5 .gom .gomnua .duoi .trai .so5 {
+          margin-bottom: 20px;
+          text-align: left;
+          width: 260px; }
+          .container5 .gom .gomnua .duoi .trai .so5 h2 {
+            color: #333333;
+            font-size: 24px;
+            letter-spacing: 1px;
+            margin: 20px 0px; }
+          .container5 .gom .gomnua .duoi .trai .so5 p {
+            width: 250px;
+            font-size: 16px;
+            color: #333333;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif; }
+      .container5 .gom .gomnua a {
+        display: flex;
+        justify-content: left;
+        width: 160px;
+        padding: 16px 30px;
+        color: #333;
+        background: #ffc815; }
+        .container5 .gom .gomnua a:hover {
+          color: white;
+          background: #333; }
+
+.container6 {
+  text-align: center; }
+  .container6 h1 {
+    color: #000000;
+    margin-top: 50px;
+    letter-spacing: 2px; }
+    .container6 h1 span {
+      color: #666666; }
+  .container6 .gom {
+    display: flex;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .container6 .gom .gomnua .gomne1, .container6 .gom .gomnua .gomne2, .container6 .gom .gomnua .gomne3 {
+      display: flex; }
+      .container6 .gom .gomnua .gomne1 .anhne, .container6 .gom .gomnua .gomne2 .anhne, .container6 .gom .gomnua .gomne3 .anhne {
+        margin: 5px;
+        width: 370px;
+        overflow: hidden;
+        position: relative; }
+        .container6 .gom .gomnua .gomne1 .anhne span, .container6 .gom .gomnua .gomne2 .anhne span, .container6 .gom .gomnua .gomne3 .anhne span {
+          opacity: 1;
+          color: #000;
+          z-index: 14;
+          position: absolute;
+          top: 20px;
+          right: 50%;
+          letter-spacing: 1px;
+          transform: translateX(50%); }
+        .container6 .gom .gomnua .gomne1 .anhne .view, .container6 .gom .gomnua .gomne2 .anhne .view, .container6 .gom .gomnua .gomne3 .anhne .view {
+          z-index: -1;
+          opacity: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: #5a59596b; }
+          .container6 .gom .gomnua .gomne1 .anhne .view .thu p, .container6 .gom .gomnua .gomne2 .anhne .view .thu p, .container6 .gom .gomnua .gomne3 .anhne .view .thu p {
+            transition: all 1s;
+            padding: 2px 10px;
+            border: white solid 3px;
+            color: white;
+            letter-spacing: 2px; }
+        .container6 .gom .gomnua .gomne1 .anhne:after, .container6 .gom .gomnua .gomne2 .anhne:after, .container6 .gom .gomnua .gomne3 .anhne:after {
+          content: ' ';
+          -webkit-clip-path: polygon(100% 0, 100% 40%, 49% 25%, 0 42%, 0 0);
+          clip-path: polygon(100% 0, 100% 40%, 49% 25%, 0 42%, 0 0);
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          height: 100%;
+          background: #fff;
+          opacity: 0.8;
+          transition: all 1s; }
+        .container6 .gom .gomnua .gomne1 .anhne:hover:after, .container6 .gom .gomnua .gomne2 .anhne:hover:after, .container6 .gom .gomnua .gomne3 .anhne:hover:after {
+          -webkit-clip-path: polygon(100% 0, 100% 9%, 49% 19%, 0 9%, 0 0);
+          clip-path: polygon(100% 0, 100% 9%, 49% 19%, 0 9%, 0 0);
+          z-index: 2; }
+        .container6 .gom .gomnua .gomne1 .anhne:hover span, .container6 .gom .gomnua .gomne2 .anhne:hover span, .container6 .gom .gomnua .gomne3 .anhne:hover span {
+          animation: thune 1s forwards; }
+        .container6 .gom .gomnua .gomne1 .anhne:hover .view, .container6 .gom .gomnua .gomne2 .anhne:hover .view, .container6 .gom .gomnua .gomne3 .anhne:hover .view {
+          opacity: 1;
+          z-index: 1; }
+          .container6 .gom .gomnua .gomne1 .anhne:hover .view .thu p, .container6 .gom .gomnua .gomne2 .anhne:hover .view .thu p, .container6 .gom .gomnua .gomne3 .anhne:hover .view .thu p {
+            backface-visibility: visible;
+            transform: scale(1.2);
+            z-index: 9;
+            opacity: 1; }
+
+.container7 {
+  height: 80vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .container7 .gom .tren {
+    position: relative;
+    height: 250px; }
+    .container7 .gom .tren:after {
+      content: ' ';
+      position: absolute;
+      background: #b6b6b6;
+      height: 1px;
+      width: 150%;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .container7 .gom .tren .gomtren h1 {
+      margin: 30px;
+      letter-spacing: 2px; }
+    .container7 .gom .tren .gomtren p {
+      margin-bottom: 50px;
+      font-size: 18px;
+      color: #333333;
+      font-family: 'Open Sans', sans-serif; }
+    .container7 .gom .tren .gomtren a {
+      padding: 16px 30px;
+      color: #333;
+      background: #ffc815; }
+      .container7 .gom .tren .gomtren a:hover {
+        color: white;
+        background: #333; }
+  .container7 .gom .duoi .gomduoi {
+    margin: 20px; }
+    .container7 .gom .duoi .gomduoi i {
+      margin: 20px;
+      font-size: 18px;
+      color: #333333; }
+      .container7 .gom .duoi .gomduoi i:hover {
+        color: #ffc815; }
+  .container7 .gom .duoi p {
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif; }
+
+@keyframes toup {
+  from {
+    transform: translateX(-50%) translateY(5px);
+    opacity: 0; }
+  to {
+    transform: translateX(-50%) translateY(0px);
+    opacity: 1; } }
+
+.fadeInn {
+  animation: fadeInn 1s forwards; }
+
+.fadeOut {
+  animation: fadeOut 1s forwards; }
+
+.fadeIn {
+  animation: fadeIn 0.3s forwards; }
+
+.toTop {
+  animation: toTop 1s forwards; }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fadeIn {
+  from {
+    transform: scaleY(1.2) translateY(20px);
+    opacity: 0; }
+  to {
+    transform: scaleY(1) translateY(0px);
+    opacity: 1; } }
+
+@keyframes toLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes toRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes toDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0; }
+  to {
+    transform: translateY(0px);
+    opacity: 1; } }
+
+@keyframes toTop {
+  from {
+    transform: translateY(50px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes fadeInn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes thune {
+  from {
+    transform: translate(50%, 0px);
+    opacity: 1; }
+  to {
+    transform: translate(50%, -20px);
+    opacity: 0; } }
+
+.fadeIn0 {
+  animation: fadeInn 1s 1s forwards; }
+
+.fadeIn1 {
+  animation: fadeInn 1s 2s forwards; }
+
+.fadeIn2 {
+  animation: fadeInn 1s 3s forwards; }
+
+.fadeIn3 {
+  animation: fadeInn 1s 4s forwards; }
+
+.fadeIn4 {
+  animation: fadeInn 1s 5s forwards; }
+
+.opa {
+  opacity: 0.7; }
+
+.opaa {
+  opacity: 1; }

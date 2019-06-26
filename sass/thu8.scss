@@ -1,0 +1,32 @@
+.slider{
+    position: relative;
+    .owl-nav{
+        button{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .owl-next{
+            right: 0;
+        }
+    }
+    .owl-dots{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 20px;
+            height: 20px;
+            background: #000 ;
+            border-radius: 50%;
+            transition: all 0.3;
+            outline: none;
+            margin-right: 7px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &.active{
+                background: red;
+            }
+        }
+    }
+}

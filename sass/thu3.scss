@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    width: 1250px;
+    // background: red;
+    position: relative;
+    .under{
+        position: relative;
+        h1{
+            font-size: 50px;
+        }
+        .thu{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,50%);
+            bottom: -20px;
+            border: 0.4px solid #000 ;
+            width: 200px;
+        }
+        .thu1{
+            position: absolute;
+            left: 49%;
+            transform: translate(-100%,50%) rotate(45deg);
+            bottom: -20px;
+            font-size: 10px;
+            color: rgb(230, 160, 31);
+        }
+        .thu2{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,50%) rotate(45deg);
+            color: #1accfd;
+            font-size: 15px;
+            bottom: -20px;
+
+        }
+        .thu3{
+            position: absolute;
+            right: 49%;
+            transform: translate(90%,50%) rotate(45deg);
+            bottom: -20px;
+            font-size: 10px;
+            color: rgb(230, 160, 31);
+        }
+    }
+    button{
+        cursor: pointer;
+        i{
+            font-size: 30px;
+            color: #333;
+        }
+    }
+    .left{
+        position: absolute;
+        left: -40px;
+        top: 50%;
+        transform: translateX(-50%);
+    }
+    .right{
+        position: absolute;
+        right: -40px;
+        top: 50%;
+        transform: translateX(-50%);
+    }
+    .gomso1{
+        // background: blue;
+        margin: 50px 10px;
+        // margin: 10px;
+        width: 1200px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        .gomso2{
+            background: white;
+            margin: 25px;
+            border: #ddd solid 1px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            transition: all 2s;
+            .gomne{
+                width: 300px;
+                margin: 25px;
+                .chu{
+                    letter-spacing: 1px;
+                    text-align: left;
+                    a{
+                        margin: 10px;
+                        p{
+                            color: #333;
+                            font-size: 19px;
+                        }
+                    }
+                    h3{
+                        font-size: 17px;
+                        color: rgb(230, 160, 31);
+                        margin-bottom: 10px;
+                    }
+                    >p{
+                        font-size: 14px;
+                        padding: 10px;
+                        border: #ddd solid 1px;
+                    }
+                    button{
+                        margin-top: 20px;
+                        cursor: pointer;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 50px;
+                        width: 300px;
+                        // padding: 10px;
+                        color: white;
+                        background: #1accfd;
+                        &:hover{
+                            background: #333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

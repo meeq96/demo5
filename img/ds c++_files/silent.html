@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0298)https://a.lw.skype.com/Login/silent/MsaCallback?site_name=lw.skype.com&response_type=postmessage&client_id=580081&redirect_uri=https%3a%2f%2fexcel.officeapps.live.com%2fx%2f_layouts%2fxlviewerinternal.aspx&state=silentloginsdk_1559317554914&partner=999&session_id=hvHMRnLcd1XlkClpYWdG&wa=wsignin1.0 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <title>Skype</title>
+
+    <script type="text/javascript">
+        var message = "";
+
+        window.hashFragment = (function () {
+            "use strict";
+
+            return {
+                hashParams: {},
+
+                parseHashParams: function (windowObj) {
+                    var hash,
+                        hashPairs,
+                        hashPair,
+                        delimiterIndex,
+                        key,
+                        value,
+                        ind;
+
+                    windowObj = windowObj ? windowObj : window;
+                    hash = windowObj.location.hash.replace("#", "");
+                    this.hashParams = {};
+                    hashPairs = hash.split("&");
+                    for (ind in hashPairs) {
+                        hashPair = hashPairs[ind];
+                        delimiterIndex = hashPair.indexOf("=");
+                        if (delimiterIndex >= 0) {
+                            key = decodeURIComponent(hashPair.substring(0, delimiterIndex)).toLowerCase();
+                            value = decodeURIComponent(hashPair.substring(delimiterIndex + 1));
+                            this.hashParams[key] = value;
+                        }
+                    }
+                },
+                getHashParam: function (key) {
+                    return this.hashParams[key.toLowerCase()];
+                }
+            };
+        })();
+
+        (function () {
+            var target = "https://excel.officeapps.live.com/x/_layouts/xlviewerinternal.aspx",
+                messageObject = {"skypetoken":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwMSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NTkzMTc1NTgsImV4cCI6MTU1OTQwMzk1Nywic2t5cGVpZCI6ImxpdmU6ZjUwMTk4NjNiOTEyM2RhZCIsInNjcCI6OTU4LCJjc2kiOiIxNTU5MzE3NTU3IiwiY2lkIjoiZjUwMTk4NjNiOTEyM2RhZCIsImFhdCI6MTU1OTMxNzUxNX0.arjBHSVPULI8TqFuh3Subhi8dXDaaHKkBVAhiTMP63d_KeBe0a5hK8U64nITXyNUeHf9L9tIMFZwP9Dy9nML4pSE-blBgb6yghrDhovbQ5zUWvPsmR_BppWqjtUFAjfJinkOWpX2QRcKDi0v68iJoVYivBrfnL4a9u5XO_n9WSdKP0BjnbC4M0fIv5VMCkr1vSDc2K2zZLXzKPE4lTiw0gbDlbfNq80aMaRRFO5voHmc7DT2H4l8b8i-umR5y1fyVT-s7OGlJHmjZ28H_w4jcYaJ4ZVVMaki57CnTIcALQyh9C6D0tL8yFQ5TXU9qgwgqHJAO005C9_ffmc8lUqPKg","expires_in":"86398","skypeid":"live:f5019863b9123dad","signinname":"quachhongthu131@gmail.com","state":"silentloginsdk_1559317554914"};
+
+            window.hashFragment.parseHashParams();
+            var error = window.hashFragment.getHashParam("error");
+            var errorDescription = window.hashFragment.getHashParam("error_description");
+
+            if (!!error && error.length) {
+                messageObject.error = error;
+                messageObject.error_description = errorDescription;
+            }
+            
+            var message = JSON.stringify(messageObject);
+
+            if (!!window.opener) {                              // Send postMessage from a Popup and close window
+                window.opener.postMessage(message, target);
+                window.close();
+            } else if (!!window.parent) {                       // Send postMessage from an Iframe
+                window.parent.postMessage(message, target);
+            }
+        }());
+    </script>
+</head>
+<body>
+
+</body></html>

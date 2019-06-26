@@ -1,0 +1,403 @@
+.f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.f-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  width: 100%;
+  height: 700px;
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/04-01-2019/cycle-demo_Free/777014964/web/images/2.jpg") center no-repeat;
+  background-size: cover; }
+  header .container {
+    height: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.53); }
+    header .container .header {
+      margin: 0 auto;
+      width: 1250px; }
+      header .container .header a {
+        color: white;
+        letter-spacing: 1px; }
+      header .container .header .logo a {
+        font-weight: 700;
+        font-size: 40px; }
+      header .container .header .navbar > ul {
+        width: 400px; }
+        header .container .header .navbar > ul li {
+          color: white;
+          position: relative; }
+          header .container .header .navbar > ul li:first-child a {
+            color: #0abde3; }
+          header .container .header .navbar > ul li:hover a {
+            color: #0abde3; }
+          header .container .header .navbar > ul li:hover .dropdown {
+            display: block; }
+          header .container .header .navbar > ul li a {
+            letter-spacing: 2px; }
+            header .container .header .navbar > ul li a i {
+              margin: 5px; }
+          header .container .header .navbar > ul li .dropdown {
+            display: none;
+            position: absolute;
+            top: 30px;
+            background: #333;
+            border-radius: 5px;
+            width: 180px;
+            padding: 10px; }
+            header .container .header .navbar > ul li .dropdown > ul > li {
+              padding: 5px 10px; }
+              header .container .header .navbar > ul li .dropdown > ul > li a {
+                color: white; }
+              header .container .header .navbar > ul li .dropdown > ul > li:hover {
+                background: white; }
+                header .container .header .navbar > ul li .dropdown > ul > li:hover a {
+                  color: #333 !important; }
+      header .container .header .phone {
+        color: white; }
+        header .container .header .phone i {
+          margin: 10px; }
+  header .text {
+    width: 850px;
+    height: 500px; }
+    header .text h1 {
+      color: white;
+      font-size: 50px;
+      margin-bottom: 20px; }
+      header .text h1 span {
+        font-weight: lighter; }
+    header .text p {
+      color: #d8d6d6;
+      letter-spacing: 10px;
+      margin-bottom: 70px; }
+    header .text button {
+      border: none;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      color: white;
+      background: #ffb66b;
+      padding: 15px 20px; }
+      header .text button:hover {
+        animation: toDown 0.3s forwards; }
+
+.about {
+  width: 100%;
+  height: 900px;
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/04-01-2019/cycle-demo_Free/777014964/web/images/bg1.jpg");
+  background-size: cover; }
+  .about .content {
+    height: 900px; }
+    .about .content .welcome .title {
+      margin-bottom: 50px;
+      text-align: center; }
+      .about .content .welcome .title h1 {
+        font-size: 40px; }
+      .about .content .welcome .title p {
+        margin: 10px;
+        letter-spacing: 2px; }
+    .about .content .welcome .container .row {
+      width: 1150px;
+      margin: 0 auto; }
+      .about .content .welcome .container .row .num {
+        -webkit-box-shadow: 1px 4px 24px 3px rgba(0, 0, 0, 0.14);
+        background: #fff;
+        width: 550px;
+        letter-spacing: 1px;
+        text-align: center; }
+        .about .content .welcome .container .row .num img {
+          margin: 30px;
+          width: 400px; }
+        .about .content .welcome .container .row .num h2 {
+          color: #ffb66b;
+          margin: 15px; }
+        .about .content .welcome .container .row .num p {
+          margin: 0 auto;
+          width: 350px;
+          color: #333;
+          line-height: 28px; }
+        .about .content .welcome .container .row .num button {
+          margin: 20px 0px 50px 0px;
+          padding: 15px 20px;
+          background: #2d2d2d;
+          color: white;
+          font-size: 15px;
+          border: none;
+          letter-spacing: 1px; }
+          .about .content .welcome .container .row .num button:hover {
+            background: #4d4c4c; }
+
+.statistics {
+  height: 900px; }
+  .statistics .container {
+    height: 900px; }
+    .statistics .container .sta .title {
+      margin-bottom: 50px;
+      text-align: center; }
+      .statistics .container .sta .title h1 {
+        font-size: 40px; }
+      .statistics .container .sta .title p {
+        margin: 10px;
+        letter-spacing: 2px; }
+    .statistics .container .sta .content .left img {
+      width: 650px; }
+    .statistics .container .sta .content .right .row {
+      width: 650px;
+      text-align: left; }
+      .statistics .container .sta .content .right .row .num {
+        margin: 40px;
+        letter-spacing: 2px; }
+        .statistics .container .sta .content .right .row .num:first-child h2 {
+          color: #ffb66b; }
+        .statistics .container .sta .content .right .row .num h2 {
+          margin-bottom: 15px;
+          font-size: 30px;
+          color: #0abde3; }
+        .statistics .container .sta .content .right .row .num span {
+          color: #4d4c4c;
+          font-size: 30px; }
+        .statistics .container .sta .content .right .row .num p {
+          margin-top: 20px;
+          color: #999;
+          width: 420px; }
+
+.whatwedo {
+  height: 900px;
+  margin-top: 60px; }
+  .whatwedo .container .content .title {
+    margin-bottom: 120px;
+    text-align: center; }
+    .whatwedo .container .content .title h1 {
+      font-size: 40px; }
+    .whatwedo .container .content .title p {
+      margin: 10px;
+      letter-spacing: 2px; }
+  .whatwedo .container .content .row {
+    background: #ffb66b;
+    height: 600px;
+    position: relative; }
+    .whatwedo .container .content .row .features {
+      width: 400px;
+      height: 100%; }
+      .whatwedo .container .content .row .features .center {
+        letter-spacing: 1px; }
+        .whatwedo .container .content .row .features .center p {
+          color: white;
+          margin-bottom: 30px; }
+        .whatwedo .container .content .row .features .center h2 {
+          color: #333;
+          width: 270px;
+          font-size: 30px;
+          line-height: 50px;
+          margin-bottom: 60px; }
+        .whatwedo .container .content .row .features .center button {
+          padding: 14px 18px;
+          color: white;
+          font-size: 15px;
+          border-radius: 5px;
+          border: none;
+          letter-spacing: 2px;
+          background: #0abde3; }
+          .whatwedo .container .content .row .features .center button:hover {
+            animation: toDown 0.3s forwards; }
+    .whatwedo .container .content .row .img {
+      position: absolute;
+      right: 20px;
+      bottom: 0; }
+
+.discount {
+  height: 100vh; }
+  .discount .container .content {
+    margin: 0 auto;
+    width: 1100px; }
+    .discount .container .content .right {
+      text-align: left; }
+      .discount .container .content .right .title {
+        margin-bottom: 50px;
+        text-align: left; }
+        .discount .container .content .right .title h1 {
+          font-size: 40px; }
+        .discount .container .content .right .title p {
+          margin: 10px;
+          letter-spacing: 2px; }
+      .discount .container .content .right .col {
+        width: 500px;
+        letter-spacing: 2px; }
+        .discount .container .content .right .col span {
+          font-size: 28px;
+          line-height: 35px; }
+        .discount .container .content .right .col p {
+          margin-top: 30px;
+          color: #999;
+          line-height: 28px;
+          font-size: 15px; }
+
+.gallery {
+  height: 1080px;
+  position: relative; }
+  .gallery .container .content {
+    width: 1100px;
+    margin: 0 auto; }
+    .gallery .container .content .title {
+      margin-bottom: 50px;
+      text-align: center; }
+      .gallery .container .content .title h1 {
+        font-size: 40px; }
+      .gallery .container .content .title p {
+        margin: 10px;
+        letter-spacing: 2px; }
+    .gallery .container .content .img .col-1 .img1 img, .gallery .container .content .img .col-2 .img1 img, .gallery .container .content .img .col-3 .img1 img {
+      width: 350px;
+      margin-bottom: 25px; }
+    .gallery .container .content .img .col-1 .img1 .f-modal, .gallery .container .content .img .col-2 .img1 .f-modal, .gallery .container .content .img .col-3 .img1 .f-modal {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+      background: #2d2d2d52; }
+      .gallery .container .content .img .col-1 .img1 .f-modal .modal, .gallery .container .content .img .col-2 .img1 .f-modal .modal, .gallery .container .content .img .col-3 .img1 .f-modal .modal {
+        text-align: center;
+        background: white;
+        height: 100vh;
+        width: 600px; }
+        .gallery .container .content .img .col-1 .img1 .f-modal .modal .row, .gallery .container .content .img .col-2 .img1 .f-modal .modal .row, .gallery .container .content .img .col-3 .img1 .f-modal .modal .row {
+          height: 600px;
+          text-align: center; }
+          .gallery .container .content .img .col-1 .img1 .f-modal .modal .row img, .gallery .container .content .img .col-2 .img1 .f-modal .modal .row img, .gallery .container .content .img .col-3 .img1 .f-modal .modal .row img {
+            width: 500px; }
+          .gallery .container .content .img .col-1 .img1 .f-modal .modal .row p, .gallery .container .content .img .col-2 .img1 .f-modal .modal .row p, .gallery .container .content .img .col-3 .img1 .f-modal .modal .row p {
+            margin: 0 auto;
+            width: 450px;
+            color: #999;
+            line-height: 28px;
+            font-size: 15px; }
+    .gallery .container .content .img .col-1 img, .gallery .container .content .img .col-2 img, .gallery .container .content .img .col-3 img {
+      cursor: pointer;
+      width: 350px;
+      margin-bottom: 25px; }
+
+.pricing {
+  height: 1000px;
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/04-01-2019/cycle-demo_Free/777014964/web/images/bg2.jpg") center;
+  background-size: cover; }
+  .pricing .container .content {
+    margin-top: 80px; }
+    .pricing .container .content .title {
+      margin-bottom: 50px;
+      text-align: center;
+      color: white; }
+      .pricing .container .content .title h1 {
+        font-size: 40px; }
+      .pricing .container .content .title p {
+        margin: 10px;
+        letter-spacing: 2px; }
+    .pricing .container .content .row {
+      width: 1100px;
+      margin: 0 auto;
+      height: 900px; }
+      .pricing .container .content .row .col {
+        width: 350px;
+        background: #fff;
+        position: relative; }
+        .pricing .container .content .row .col .num {
+          width: 280px;
+          height: 420px;
+          margin: 0 auto;
+          text-align: center;
+          letter-spacing: 1px; }
+          .pricing .container .content .row .col .num .square {
+            position: absolute;
+            top: -33.3%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffb66b;
+            border-radius: 160px 160px 0 0;
+            width: 300px;
+            height: 140px;
+            color: white; }
+            .pricing .container .content .row .col .num .square .abso > h1 {
+              font-size: 40px; }
+            .pricing .container .content .row .col .num .square .abso > p {
+              margin-top: 10px;
+              letter-spacing: 3px;
+              color: white; }
+          .pricing .container .content .row .col .num p {
+            color: #999;
+            font-size: 15px;
+            margin-top: 30px; }
+          .pricing .container .content .row .col .num h2 {
+            text-transform: uppercase;
+            margin: 10px 0px 20px 0px;
+            font-size: 25px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.29); }
+          .pricing .container .content .row .col .num ul {
+            width: 100%;
+            border-top: 1px solid #dee2e6;
+            margin: 20px 0px; }
+            .pricing .container .content .row .col .num ul li {
+              color: #656161;
+              padding: 10px; }
+              .pricing .container .content .row .col .num ul li:first-child {
+                margin-top: 20px; }
+          .pricing .container .content .row .col .num button {
+            width: 100%;
+            background: #0abde3;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 18px;
+            letter-spacing: 2px; }
+            .pricing .container .content .row .col .num button:hover {
+              background: #15cef8; }
+
+.blog .container {
+  height: 750px; }
+  .blog .container .content {
+    margin-top: 80px; }
+    .blog .container .content .title {
+      margin-bottom: 50px;
+      text-align: center; }
+      .blog .container .content .title h1 {
+        font-size: 40px; }
+      .blog .container .content .title p {
+        margin: 10px;
+        letter-spacing: 2px; }
+    .blog .container .content .row {
+      width: 1100px;
+      margin: 0 auto; }
+      .blog .container .content .row .col {
+        width: 350px;
+        border: 1px solid #dee2e6;
+        margin: 0 auto; }
+        .blog .container .content .row .col img {
+          width: 348px; }
+        .blog .container .content .row .col .num {
+          height: 200px;
+          width: 320px;
+          margin: 0 auto; }
+          .blog .container .content .row .col .num h3 {
+            margin: 25px 0px 10px 0px;
+            font-size: 24px; }
+          .blog .container .content .row .col .num span {
+            font-size: 15px; }
+          .blog .container .content .row .col .num p {
+            margin-top: 20px;
+            color: #999;
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 28px; }
+
+@keyframes toDown {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(20px); } }

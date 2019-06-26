@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  padding: 7px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  width: 600px;
+  height: 500px; }
+  .container .stop {
+    background: red;
+    color: white;
+    padding: 10px 15px; }
+  .container .sliders {
+    position: relative;
+    height: 100%; }
+    .container .sliders button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 5px; }
+      .container .sliders button.prev {
+        left: -70px; }
+      .container .sliders button.next {
+        right: -70px; }
+    .container .sliders .slide-content {
+      overflow: hidden; }
+      .container .sliders .slide-content .slider-img {
+        transition: all 0.5s ease-in;
+        display: flex; }
+        .container .sliders .slide-content .slider-img img {
+          width: 100%;
+          height: 100%; }

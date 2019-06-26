@@ -1,0 +1,835 @@
+.f-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.f-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  width: 1280px;
+  margin: auto;
+  height: 74px;
+}
+
+header .container {
+  margin-left: 148px;
+  width: 820px;
+  height: 100%;
+}
+
+header .container .navbar ul {
+  width: 474px;
+}
+
+header .container .navbar ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #c7d0d0;
+  padding: 5px;
+}
+
+header .container .navbar ul li a:hover {
+  padding: 10px 5px;
+  background: #c7d0d0;
+  color: #333;
+}
+
+header .container .left {
+  height: 100%;
+}
+
+header .container .left .search {
+  cursor: pointer;
+  background: #e2dee0;
+  width: 75px;
+  height: 100%;
+}
+
+header .container .left .search:hover {
+  background: #999;
+}
+
+header .login {
+  width: 313px;
+  height: 100%;
+  cursor: pointer;
+  background: #e94e38;
+  color: white;
+}
+
+header .login:hover {
+  background: #ee5a47;
+}
+
+header .login .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 235px;
+  text-align: left;
+}
+
+header .login .col p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.lookingfor {
+  background: url(../img/bgd3.png);
+  width: 1280px;
+  margin: auto;
+  height: 374px;
+  background-size: cover;
+  text-align: center;
+}
+
+.lookingfor .container {
+  color: white;
+}
+
+.lookingfor .container .title h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 36px;
+}
+
+.lookingfor .container .dropdown .left, .lookingfor .container .dropdown .right {
+  width: 225px;
+  margin: 0px 15px;
+  position: relative;
+}
+
+.lookingfor .container .dropdown .left:hover .col, .lookingfor .container .dropdown .right:hover .col {
+  display: block;
+}
+
+.lookingfor .container .dropdown .left .row, .lookingfor .container .dropdown .right .row {
+  width: 100%;
+  background: #615e5d71;
+  padding: 20px;
+  border-radius: 70px;
+  border: 1px solid #5a5550;
+}
+
+.lookingfor .container .dropdown .left .row p, .lookingfor .container .dropdown .right .row p {
+  margin-left: 13px;
+  font-size: 14px;
+}
+
+.lookingfor .container .dropdown .left .col, .lookingfor .container .dropdown .right .col {
+  display: none;
+  position: absolute;
+  top: 80%;
+  width: 225px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 20px;
+  -webkit-clip-path: polygon(0 82%, 100% 82%, 100% 10%, 79% 10%, 85% 0, 65% 10%, 0 10%);
+          clip-path: polygon(0 82%, 100% 82%, 100% 10%, 79% 10%, 85% 0, 65% 10%, 0 10%);
+  background: #7a7775f1;
+}
+
+.lookingfor .container .dropdown .left .col ul li, .lookingfor .container .dropdown .right .col ul li {
+  padding: 10px;
+}
+
+.lookingfor .container .dropdown .left .col ul li:hover a, .lookingfor .container .dropdown .right .col ul li:hover a {
+  color: #e94e38;
+}
+
+.lookingfor .container .dropdown .left .col ul li a, .lookingfor .container .dropdown .right .col ul li a {
+  color: white;
+}
+
+.lookingfor .container input {
+  outline: none;
+  margin-top: 22px;
+  width: 474px;
+  font-size: 15px;
+  background: #615e5d71;
+  padding: 20px;
+  border-radius: 70px;
+  color: white;
+  border: 1px solid #5a5550;
+}
+
+.lookingfor .container input::-webkit-input-placeholder {
+  color: white;
+}
+
+.lookingfor .container .button button {
+  cursor: pointer;
+  width: 142px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  background: #e94e38;
+  padding: 22px;
+  border: none;
+  margin-top: 28px;
+  border-radius: 70px;
+}
+
+.lookingfor .container .button button:hover {
+  background: #ee5a47;
+}
+
+.f-title {
+  background: #fff;
+  width: 1280px;
+  margin: auto;
+  border-bottom: 1px solid #e2dee0;
+}
+
+.f-title .container {
+  width: 984px;
+  margin: auto;
+  height: 60px;
+}
+
+.f-title .container .navbar ul {
+  width: 265px;
+}
+
+.f-title .container .navbar ul li {
+  margin: 12.5px;
+}
+
+.f-title .container .navbar ul li:hover a {
+  color: #e94e38;
+}
+
+.f-title .container .navbar ul li:first-child a {
+  color: #e94e38;
+}
+
+.f-title .container .navbar ul li a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5a5550;
+}
+
+.f-title .container .left {
+  width: 116px;
+  margin: 0px 15px;
+  position: relative;
+}
+
+.f-title .container .left:hover .col {
+  display: block;
+}
+
+.f-title .container .left .row {
+  width: 100%;
+  padding: 15px;
+  border-radius: 70px;
+  border: 1px solid #d8dede;
+}
+
+.f-title .container .left .row p {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #e94e38;
+  text-transform: uppercase;
+}
+
+.f-title .container .left .row i {
+  color: #5a5550;
+  font-size: 15px;
+}
+
+.f-title .container .left .col {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  width: 116px;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 20px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 10%, 79% 10%, 85% 0, 65% 10%, 0 10%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 10%, 79% 10%, 85% 0, 65% 10%, 0 10%);
+  background: #7a7775f1;
+}
+
+.f-title .container .left .col ul li {
+  padding: 5px 10px;
+}
+
+.f-title .container .left .col ul li:hover {
+  border-radius: 15px;
+}
+
+.f-title .container .left .col ul li:hover a {
+  color: #e94e38;
+}
+
+.f-title .container .left .col ul li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+}
+
+.f-title .container .right {
+  width: 127px;
+  padding: 15px;
+  border-radius: 70px;
+  border: 1px solid #d8dede;
+  color: #5a5550;
+}
+
+.f-title .container .right:hover {
+  background: #e94e38;
+  color: white;
+}
+
+.f-title .container .right p {
+  margin-left: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.f-title .container .right i {
+  font-size: 15px;
+}
+
+.f-title .container .filter p {
+  font-size: 12px;
+  color: #5a5550;
+  text-transform: uppercase;
+}
+
+.f-title .container .filter .col {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.f-title .container .filter .col img {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.img {
+  z-index: -1;
+  background: #f3f1f2;
+  height: 2500px;
+  padding-top: 40px;
+}
+
+.img .container-1, .img .container-3, .img .container-4 {
+  width: 949px;
+  height: 265px;
+  margin: auto;
+}
+
+.img .container-1 .row-1, .img .container-1 .row-2, .img .container-1 .row-3, .img .container-1 .row-4, .img .container-3 .row-1, .img .container-3 .row-2, .img .container-3 .row-3, .img .container-3 .row-4, .img .container-4 .row-1, .img .container-4 .row-2, .img .container-4 .row-3, .img .container-4 .row-4 {
+  height: 100%;
+  -webkit-box-shadow: 0 0 3px 3px #d1d1d1;
+          box-shadow: 0 0 3px 3px #d1d1d1;
+}
+
+.img .container-1 .row-1 .col, .img .container-1 .row-2 .col, .img .container-1 .row-3 .col, .img .container-1 .row-4 .col, .img .container-3 .row-1 .col, .img .container-3 .row-2 .col, .img .container-3 .row-3 .col, .img .container-3 .row-4 .col, .img .container-4 .row-1 .col, .img .container-4 .row-2 .col, .img .container-4 .row-3 .col, .img .container-4 .row-4 .col {
+  background: #fff;
+  position: relative;
+  width: 210px;
+  margin: auto;
+  text-align: center;
+}
+
+.img .container-1 .row-1 .col .pic, .img .container-1 .row-2 .col .pic, .img .container-1 .row-3 .col .pic, .img .container-1 .row-4 .col .pic, .img .container-3 .row-1 .col .pic, .img .container-3 .row-2 .col .pic, .img .container-3 .row-3 .col .pic, .img .container-3 .row-4 .col .pic, .img .container-4 .row-1 .col .pic, .img .container-4 .row-2 .col .pic, .img .container-4 .row-3 .col .pic, .img .container-4 .row-4 .col .pic {
+  cursor: pointer;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.img .container-1 .row-1 .col .pic > img, .img .container-1 .row-2 .col .pic > img, .img .container-1 .row-3 .col .pic > img, .img .container-1 .row-4 .col .pic > img, .img .container-3 .row-1 .col .pic > img, .img .container-3 .row-2 .col .pic > img, .img .container-3 .row-3 .col .pic > img, .img .container-3 .row-4 .col .pic > img, .img .container-4 .row-1 .col .pic > img, .img .container-4 .row-2 .col .pic > img, .img .container-4 .row-3 .col .pic > img, .img .container-4 .row-4 .col .pic > img {
+  width: 210px;
+  height: 142px;
+}
+
+.img .container-1 .row-1 .col .pic .dol, .img .container-1 .row-2 .col .pic .dol, .img .container-1 .row-3 .col .pic .dol, .img .container-1 .row-4 .col .pic .dol, .img .container-3 .row-1 .col .pic .dol, .img .container-3 .row-2 .col .pic .dol, .img .container-3 .row-3 .col .pic .dol, .img .container-3 .row-4 .col .pic .dol, .img .container-4 .row-1 .col .pic .dol, .img .container-4 .row-2 .col .pic .dol, .img .container-4 .row-3 .col .pic .dol, .img .container-4 .row-4 .col .pic .dol {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.img .container-1 .row-1 .col .pic .dol p, .img .container-1 .row-2 .col .pic .dol p, .img .container-1 .row-3 .col .pic .dol p, .img .container-1 .row-4 .col .pic .dol p, .img .container-3 .row-1 .col .pic .dol p, .img .container-3 .row-2 .col .pic .dol p, .img .container-3 .row-3 .col .pic .dol p, .img .container-3 .row-4 .col .pic .dol p, .img .container-4 .row-1 .col .pic .dol p, .img .container-4 .row-2 .col .pic .dol p, .img .container-4 .row-3 .col .pic .dol p, .img .container-4 .row-4 .col .pic .dol p {
+  background: #1baf5d;
+  color: white;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 70px;
+}
+
+.img .container-1 .row-1 .col .pic .hover, .img .container-1 .row-2 .col .pic .hover, .img .container-1 .row-3 .col .pic .hover, .img .container-1 .row-4 .col .pic .hover, .img .container-3 .row-1 .col .pic .hover, .img .container-3 .row-2 .col .pic .hover, .img .container-3 .row-3 .col .pic .hover, .img .container-3 .row-4 .col .pic .hover, .img .container-4 .row-1 .col .pic .hover, .img .container-4 .row-2 .col .pic .hover, .img .container-4 .row-3 .col .pic .hover, .img .container-4 .row-4 .col .pic .hover {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: #1baf5eb7;
+}
+
+.img .container-1 .row-1 .col > p, .img .container-1 .row-2 .col > p, .img .container-1 .row-3 .col > p, .img .container-1 .row-4 .col > p, .img .container-3 .row-1 .col > p, .img .container-3 .row-2 .col > p, .img .container-3 .row-3 .col > p, .img .container-3 .row-4 .col > p, .img .container-4 .row-1 .col > p, .img .container-4 .row-2 .col > p, .img .container-4 .row-3 .col > p, .img .container-4 .row-4 .col > p {
+  margin: 12px;
+  line-height: 22px;
+  text-shadow: 1px 0.1px #333;
+  color: #566375;
+  font-size: 14px;
+  letter-spacing: 1px;
+  height: 35px;
+}
+
+.img .container-1 .row-1 .col span, .img .container-1 .row-2 .col span, .img .container-1 .row-3 .col span, .img .container-1 .row-4 .col span, .img .container-3 .row-1 .col span, .img .container-3 .row-2 .col span, .img .container-3 .row-3 .col span, .img .container-3 .row-4 .col span, .img .container-4 .row-1 .col span, .img .container-4 .row-2 .col span, .img .container-4 .row-3 .col span, .img .container-4 .row-4 .col span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.img .container-1 .row-1 .col .star > img, .img .container-1 .row-2 .col .star > img, .img .container-1 .row-3 .col .star > img, .img .container-1 .row-4 .col .star > img, .img .container-3 .row-1 .col .star > img, .img .container-3 .row-2 .col .star > img, .img .container-3 .row-3 .col .star > img, .img .container-3 .row-4 .col .star > img, .img .container-4 .row-1 .col .star > img, .img .container-4 .row-2 .col .star > img, .img .container-4 .row-3 .col .star > img, .img .container-4 .row-4 .col .star > img {
+  margin-bottom: 15px;
+}
+
+.img .container-1 .row-1 .col .star p, .img .container-1 .row-2 .col .star p, .img .container-1 .row-3 .col .star p, .img .container-1 .row-4 .col .star p, .img .container-3 .row-1 .col .star p, .img .container-3 .row-2 .col .star p, .img .container-3 .row-3 .col .star p, .img .container-3 .row-4 .col .star p, .img .container-4 .row-1 .col .star p, .img .container-4 .row-2 .col .star p, .img .container-4 .row-3 .col .star p, .img .container-4 .row-4 .col .star p {
+  margin-bottom: 13px;
+  font-size: 12px;
+  color: #5a5550;
+}
+
+.img .container-1 .row-1 .col .abso, .img .container-1 .row-2 .col .abso, .img .container-1 .row-3 .col .abso, .img .container-1 .row-4 .col .abso, .img .container-3 .row-1 .col .abso, .img .container-3 .row-2 .col .abso, .img .container-3 .row-3 .col .abso, .img .container-3 .row-4 .col .abso, .img .container-4 .row-1 .col .abso, .img .container-4 .row-2 .col .abso, .img .container-4 .row-3 .col .abso, .img .container-4 .row-4 .col .abso {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.img .container-1 .row-1 .col .abso img, .img .container-1 .row-2 .col .abso img, .img .container-1 .row-3 .col .abso img, .img .container-1 .row-4 .col .abso img, .img .container-3 .row-1 .col .abso img, .img .container-3 .row-2 .col .abso img, .img .container-3 .row-3 .col .abso img, .img .container-3 .row-4 .col .abso img, .img .container-4 .row-1 .col .abso img, .img .container-4 .row-2 .col .abso img, .img .container-4 .row-3 .col .abso img, .img .container-4 .row-4 .col .abso img {
+  width: 56px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.img .container-1 .row-1 .pic > img, .img .container-3 .row-1 .pic > img, .img .container-4 .row-1 .pic > img {
+  border-bottom: 4px solid #1baf5d;
+}
+
+.img .container-1 .row-1 span, .img .container-3 .row-1 span, .img .container-4 .row-1 span {
+  color: #1baf5d;
+}
+
+.img .container-1 .row-2 .pic > img, .img .container-3 .row-2 .pic > img, .img .container-4 .row-2 .pic > img {
+  border-bottom: 4px solid #f19e1f;
+}
+
+.img .container-1 .row-2 span, .img .container-3 .row-2 span, .img .container-4 .row-2 span {
+  color: #f19e1f;
+}
+
+.img .container-1 .row-3 .pic > img, .img .container-3 .row-3 .pic > img, .img .container-4 .row-3 .pic > img {
+  border-bottom: 4px solid #88499c;
+}
+
+.img .container-1 .row-3 span, .img .container-3 .row-3 span, .img .container-4 .row-3 span {
+  color: #88499c;
+}
+
+.img .container-1 .row-4 .pic > img, .img .container-3 .row-4 .pic > img, .img .container-4 .row-4 .pic > img {
+  border-bottom: 4px solid #1baf5d;
+}
+
+.img .container-1 .row-4 span, .img .container-3 .row-4 span, .img .container-4 .row-4 span {
+  color: #1baf5d;
+}
+
+.img .container-2, .img .container-4 {
+  width: 949px;
+  margin: auto;
+}
+
+.img .container-2 .row-5, .img .container-2 .row-6, .img .container-4 .row-5, .img .container-4 .row-6 {
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 3px 3px #d1d1d1;
+          box-shadow: 0 0 3px 3px #d1d1d1;
+  height: 265px;
+}
+
+.img .container-2 .row-5 .col, .img .container-2 .row-6 .col, .img .container-4 .row-5 .col, .img .container-4 .row-6 .col {
+  background: #fff;
+  width: 455px;
+  position: relative;
+}
+
+.img .container-2 .row-5 .col .layout, .img .container-2 .row-6 .col .layout, .img .container-4 .row-5 .col .layout, .img .container-4 .row-6 .col .layout {
+  position: relative;
+  width: 456px;
+}
+
+.img .container-2 .row-5 .col .layout > img, .img .container-2 .row-6 .col .layout > img, .img .container-4 .row-5 .col .layout > img, .img .container-4 .row-6 .col .layout > img {
+  width: 100%;
+}
+
+.img .container-2 .row-5 .col .layout .ad, .img .container-2 .row-6 .col .layout .ad, .img .container-4 .row-5 .col .layout .ad, .img .container-4 .row-6 .col .layout .ad {
+  position: absolute;
+  left: 100px;
+  bottom: 10px;
+}
+
+.img .container-2 .row-5 .col .layout .ad > p, .img .container-2 .row-6 .col .layout .ad > p, .img .container-4 .row-5 .col .layout .ad > p, .img .container-4 .row-6 .col .layout .ad > p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+.img .container-2 .row-5 .col .layout .ad .star-5, .img .container-2 .row-6 .col .layout .ad .star-5, .img .container-4 .row-5 .col .layout .ad .star-5, .img .container-4 .row-6 .col .layout .ad .star-5 {
+  margin-left: 10px;
+}
+
+.img .container-2 .row-5 .col .layout .ad .star-5 > p, .img .container-2 .row-6 .col .layout .ad .star-5 > p, .img .container-4 .row-5 .col .layout .ad .star-5 > p, .img .container-4 .row-6 .col .layout .ad .star-5 > p {
+  font-size: 12px;
+  color: white;
+}
+
+.img .container-2 .row-5 .col .txt, .img .container-2 .row-6 .col .txt, .img .container-4 .row-5 .col .txt, .img .container-4 .row-6 .col .txt {
+  margin-left: 100px;
+}
+
+.img .container-2 .row-5 .col .txt img, .img .container-2 .row-6 .col .txt img, .img .container-4 .row-5 .col .txt img, .img .container-4 .row-6 .col .txt img {
+  margin-top: 15px;
+}
+
+.img .container-2 .row-5 .col .txt h2, .img .container-2 .row-6 .col .txt h2, .img .container-4 .row-5 .col .txt h2, .img .container-4 .row-6 .col .txt h2 {
+  margin: 5px 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #566375;
+}
+
+.img .container-2 .row-5 .col .txt p, .img .container-2 .row-6 .col .txt p, .img .container-4 .row-5 .col .txt p, .img .container-4 .row-6 .col .txt p {
+  width: 341px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+  color: #8f96a1;
+}
+
+.img .container-2 .row-5 .col .txt p a, .img .container-2 .row-6 .col .txt p a, .img .container-4 .row-5 .col .txt p a, .img .container-4 .row-6 .col .txt p a {
+  color: #566375;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(143, 150, 161, 0.3);
+}
+
+.img .container-2 .row-5 .col .abso, .img .container-2 .row-6 .col .abso, .img .container-4 .row-5 .col .abso, .img .container-4 .row-6 .col .abso {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+
+.img .container-2 .row-5 .col .abso img, .img .container-2 .row-6 .col .abso img, .img .container-4 .row-5 .col .abso img, .img .container-4 .row-6 .col .abso img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.img .container-2 .row-5 .col .abso .bot, .img .container-2 .row-6 .col .abso .bot, .img .container-4 .row-5 .col .abso .bot, .img .container-4 .row-6 .col .abso .bot {
+  margin-top: 20px;
+  position: relative;
+}
+
+.img .container-2 .row-5 .col .abso .bot > img, .img .container-2 .row-6 .col .abso .bot > img, .img .container-4 .row-5 .col .abso .bot > img, .img .container-4 .row-6 .col .abso .bot > img {
+  height: 70px;
+  border: 3px solid #c7d0d0;
+}
+
+.img .container-2 .row-5 .col .abso .bot:after, .img .container-2 .row-6 .col .abso .bot:after, .img .container-4 .row-5 .col .abso .bot:after, .img .container-4 .row-6 .col .abso .bot:after {
+  content: ' ';
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #c7d0d0;
+  width: 2px;
+  height: 28px;
+}
+
+.img .container-2 .row-5 .layout > img, .img .container-4 .row-5 .layout > img {
+  border-bottom: 4px solid #1baf5d;
+}
+
+.img .container-2 .row-6 .layout > img, .img .container-4 .row-6 .layout > img {
+  border-bottom: 4px solid #f19e1f;
+}
+
+.img .container-1, .img .container-2, .img .container-3, .img .container-4 {
+  margin-bottom: 30px;
+}
+
+.img .load {
+  margin: 40px 0px;
+}
+
+.img .load .col a {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #566375;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.img .load .col a:hover {
+  letter-spacing: 3px;
+  color: #1baf5d;
+}
+
+.img .load .col i {
+  color: #566375;
+}
+
+.img .container-5 {
+  border-top: 1px solid #c7d0d0;
+  width: 984px;
+  margin: auto;
+  height: 686px;
+}
+
+.img .container-5 .col {
+  text-align: center;
+}
+
+.img .container-5 .col .title-5 h2 {
+  color: #566375;
+  margin-bottom: 10px;
+}
+
+.img .container-5 .col .title-5 p {
+  color: #a2b0b1;
+}
+
+.img .container-5 .col .icon {
+  margin-top: 72px;
+}
+
+.img .container-5 .col .icon ul {
+  width: 760px;
+}
+
+.img .container-5 .col .icon ul li {
+  position: relative;
+  width: 107px;
+}
+
+.img .container-5 .col .icon ul li::after {
+  display: block;
+  content: ' ';
+  position: absolute;
+  width: 55px;
+  height: 2px;
+  background: #c7d0d0;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+.img .container-5 .col .icon ul li:first-child::after {
+  display: none;
+}
+
+.img .container-5 .col .title-6 {
+  margin: 35px;
+}
+
+.img .container-5 .col .title-6 h2 {
+  color: #1baf5d;
+}
+
+.img .container-5 .col .col-c {
+  width: 770px;
+}
+
+.img .container-5 .col .col-c .row-7 > img {
+  margin-right: 32px;
+}
+
+.img .container-5 .col .col-c .row-7 p {
+  width: 262px;
+  font-size: 14px;
+  color: #a2b0b1;
+  text-align: left;
+}
+
+.img .contact {
+  background: url("../img/layout-l copy.png");
+  width: 1280px;
+  margin: auto;
+  height: 500px;
+}
+
+.img .contact .container {
+  text-align: center;
+  height: 242px;
+  width: 986px;
+  border-bottom: 1px solid #a2b0b1;
+}
+
+.img .contact .container .title-7 {
+  padding-top: 60px;
+  margin-bottom: 45px;
+}
+
+.img .contact .container .title-7 h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.img .contact .container .input {
+  width: 486px;
+  margin: auto;
+  position: relative;
+}
+
+.img .contact .container .input i {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+}
+
+.img .contact .container .input input {
+  border: none;
+  border-radius: 70px;
+  padding: 22px 72px;
+  width: 486px;
+  color: white;
+  background: #615e5d71;
+}
+
+.img .contact .container .input input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.829);
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.img .contact .container .input input:focus {
+  outline: none;
+}
+
+.img .contact .container .input button {
+  position: absolute;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  right: 3px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 70px;
+  color: white;
+  text-transform: uppercase;
+  background: #e94e38;
+  width: 121px;
+  border: none;
+  height: 52px;
+}
+
+.img .contact .container .input button:hover {
+  background: #ee5a47;
+  letter-spacing: 2px;
+}
+
+.img .contact .isom {
+  text-align: left;
+  margin: 42px 0px;
+}
+
+.img .contact .isom .coll {
+  height: 152px;
+}
+
+.img .contact .isom .coll .row1 h4, .img .contact .isom .coll .row2 h4 {
+  width: 90px;
+  color: white;
+  position: relative;
+}
+
+.img .contact .isom .coll .row1 h4::after, .img .contact .isom .coll .row2 h4::after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #c7d0d0;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.img .contact .isom .coll .row1 ul, .img .contact .isom .coll .row2 ul {
+  margin-top: 25px;
+}
+
+.img .contact .isom .coll .row1 ul li, .img .contact .isom .coll .row2 ul li {
+  margin: 5px;
+}
+
+.img .contact .isom .coll .row1 ul li a, .img .contact .isom .coll .row2 ul li a {
+  color: #aaa8a5;
+}
+
+.img .contact .isom .coll .row1 ul li a:hover, .img .contact .isom .coll .row2 ul li a:hover {
+  color: #1baf5d;
+}
+
+.img .contact .isom .coll .row2 .iconn {
+  width: 160px;
+  margin: 45px 0px;
+}
+
+.img .contact .isom .coll .row2 .iconn i {
+  color: white;
+}
+
+.img .contact .isom .coll .row2 .iconn i:hover {
+  color: #1baf5d;
+}
+
+.img .contact .isom .coll .row2 p {
+  padding-top: 10px;
+  color: #aaa8a5;
+  font-size: 14px;
+}
+/*# sourceMappingURL=thu7.css.map */

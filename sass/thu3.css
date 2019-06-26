@@ -1,0 +1,177 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  width: 1250px;
+  position: relative;
+}
+
+.container .under {
+  position: relative;
+}
+
+.container .under h1 {
+  font-size: 50px;
+}
+
+.container .under .thu {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  bottom: -20px;
+  border: 0.4px solid #000;
+  width: 200px;
+}
+
+.container .under .thu1 {
+  position: absolute;
+  left: 49%;
+  -webkit-transform: translate(-100%, 50%) rotate(45deg);
+          transform: translate(-100%, 50%) rotate(45deg);
+  bottom: -20px;
+  font-size: 10px;
+  color: #e6a01f;
+}
+
+.container .under .thu2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%) rotate(45deg);
+          transform: translate(-50%, 50%) rotate(45deg);
+  color: #1accfd;
+  font-size: 15px;
+  bottom: -20px;
+}
+
+.container .under .thu3 {
+  position: absolute;
+  right: 49%;
+  -webkit-transform: translate(90%, 50%) rotate(45deg);
+          transform: translate(90%, 50%) rotate(45deg);
+  bottom: -20px;
+  font-size: 10px;
+  color: #e6a01f;
+}
+
+.container button {
+  cursor: pointer;
+}
+
+.container button i {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .left {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .right {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .gomso1 {
+  margin: 50px 10px;
+  width: 1200px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .gomso1 .gomso2 {
+  background: white;
+  margin: 25px;
+  border: #ddd solid 1px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.container .gomso1 .gomso2 .gomne {
+  width: 300px;
+  margin: 25px;
+}
+
+.container .gomso1 .gomso2 .gomne .chu {
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.container .gomso1 .gomso2 .gomne .chu a {
+  margin: 10px;
+}
+
+.container .gomso1 .gomso2 .gomne .chu a p {
+  color: #333;
+  font-size: 19px;
+}
+
+.container .gomso1 .gomso2 .gomne .chu h3 {
+  font-size: 17px;
+  color: #e6a01f;
+  margin-bottom: 10px;
+}
+
+.container .gomso1 .gomso2 .gomne .chu > p {
+  font-size: 14px;
+  padding: 10px;
+  border: #ddd solid 1px;
+}
+
+.container .gomso1 .gomso2 .gomne .chu button {
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 300px;
+  color: white;
+  background: #1accfd;
+}
+
+.container .gomso1 .gomso2 .gomne .chu button:hover {
+  background: #333;
+}
+/*# sourceMappingURL=thu3.css.map */

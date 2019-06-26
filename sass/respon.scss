@@ -1,0 +1,324 @@
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.header-bg{
+    a,h2,p{
+        color: white;
+    }
+    height: 110vh;
+    position: relative;
+    background: url('https://demo.w3layouts.com/demos_new/template_demo/07-06-2019/mechanized-demo_Free/786822526/web/images/banner2.jpg') no-repeat top center/cover;
+    .content{
+        position: absolute;
+        background: rgba(0, 0, 0, 0.432);
+        width: 100%;
+        height: 100%;
+        .container{
+            header{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 0px;
+                .logo{
+                    a{
+                        font-size: 35px;
+                        font-weight: 900;
+                        letter-spacing: 2px;
+                    }
+                }
+                .navbar{
+                    .toggle-menu{
+                        display: none;
+                        padding: 7px 14px;
+                    }
+                    a.active{
+                        background: white;
+                        color: #fa8383;
+                        // border-radius: 3px;
+                    }
+                    .menu{
+                        display: block;
+                        >ul{
+                            display: flex;
+                            >li{
+                                position: relative;
+                                margin-left: 20px;
+                                i{
+                                    margin-left: 5px;
+                                }
+                                &:hover{
+                                    a{
+                                        background: #fff;
+                                        color: #fa8383;
+                                        // border-radius: 3px;
+                                    }
+                                    .dropdown{
+                                        display: block;
+                                    }
+                                }
+                                >a{
+                                    padding: 7px 14px;
+                                }
+                                .dropdown{
+                                    display: none;
+                                    position: absolute;
+                                    width: 150px;
+                                    background: #fff;
+                                    margin-top: 10px;
+                                    ul{
+                                        li{
+                                            margin: 10px;
+                                            padding: 10px 20px 0px 10px;
+                                            &:hover{
+                                                a{
+                                                    animation: bgd 1s forwards;
+                                                }
+                                            }
+                                            a{
+                                                width: 100px;
+                                                color: #333;
+                                                padding: 10px 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .header-text{
+                margin-top: 35vh;
+                max-width: 500px;
+                h2{
+                    font-size: 40px;
+                }
+                p{
+                    margin: 30px 0px;
+                    // letter-spacing: 1px;
+                    line-height: 28px;
+                }
+                a{
+                    border: 1px solid white;
+                    padding: 10px 20px;
+                    text-transform: uppercase;
+                    &:hover{
+                        background: #fff;
+                        color: #fa8383;
+                    }
+                }
+            }
+        }
+    }
+}
+.about-us{
+    padding: 50px 0px;
+    .container{
+        >h2{
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+        }
+        >p{
+            margin: 30px 0px;
+            color: #5e5e5e;
+            span{
+                font-weight: 700;
+            }
+            text-align: center;
+        }
+        .about-list{
+            padding-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            .about-item{
+                display: flex;
+                align-items: center;
+                flex-basis: 33.333%;
+                i{
+                    color: #fa8383;
+                    font-size: 30px;
+                    margin: 30px;
+                }
+                .txt{
+                    p{
+                        padding: 20px 0px;
+                        line-height: 28px;
+                        color: #5e5e5e;
+                    }
+                }
+            }
+        }
+    }
+}
+.our-services{
+    .container{
+        text-align: center;
+        h2{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .services-list{
+            margin-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;//vuowjt quas kisch thuowsc sex tuwj ddoongj xuooongs hangf
+            .services-item{
+                flex-basis: 25%;//uwu tien honw width, chir dungf dudowjc khi cos display flex
+                padding: 0px 20px;
+                h3{
+                    color: #fa8383;
+                    margin: 20px 0px;
+                }
+                p{
+                    color: #5e5e5e;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.our-gallery{
+    .container{
+        text-align: center;
+        h2{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .col{
+                padding:  10px;
+                flex-basis: 33.333%;
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes bgd{
+    from{
+        background: #fa8383;
+        color: white;
+    }
+    to{
+        background: #fff;
+        color: #fa8383;
+    }
+}
+
+
+@media(max-width: 600px){
+
+    .container{
+        width: 98%;
+    }
+    .header-bg{
+        .container{
+            header{
+                .navbar{
+                    .toggle-menu{
+                        display: block;
+                    }
+                    position: relative;
+                    .menu{
+                        display: none;
+                        ul{
+                            text-align: center;
+                            width: 80vw;
+                            padding: 20px 0px;
+                            position: absolute;
+                            left: -400px;
+                            top: 20px;
+                            display: flex;
+                            background: #fff;
+                            flex-direction: column;
+                            li{
+                                margin-left: 20px;
+                                a{
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .header-text{
+                margin-top: 40vh;
+                max-width: 500px;
+                h2{
+                    font-size: 40px;
+                }
+                p{
+                    margin: 20px 0px;
+                }
+                a{
+                    border: 1px solid white;
+                    padding: 7px 14px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .our-services{
+        .container{
+            h2{
+                margin-bottom: 10px;
+            }
+            .services-list{
+                .services-item{
+                    flex-basis: 100%;//uwu tien honw width, chir dungf dudowjc khi cos display flex
+                    padding: 0px 10px;
+                    h3{
+                        margin: 5px 0px;
+                    }
+                }
+            }
+        }
+    }
+    .about-us{
+        padding: 20px 0px;
+        .container{
+            >h2{
+                font-size: 30px;
+            }
+            >p{
+                margin: 20px 0px;
+            }
+            .about-list{
+                display: flex;
+                .about-item{
+                    flex-basis: 100%;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+.fadeIn{
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        display: block;
+    }
+}

@@ -1,0 +1,23 @@
+.slider {
+  position: relative; }
+  .slider .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  .slider .owl-nav .owl-next {
+    right: 0; }
+  .slider .owl-dots {
+    display: flex;
+    justify-content: center; }
+    .slider .owl-dots button {
+      width: 20px;
+      height: 20px;
+      background: #000;
+      border-radius: 50%;
+      transition: all 0.3;
+      outline: none;
+      margin-right: 7px; }
+      .slider .owl-dots button:last-child {
+        margin-right: 0; }
+      .slider .owl-dots button.active {
+        background: red; }
